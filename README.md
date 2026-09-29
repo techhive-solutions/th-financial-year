@@ -114,7 +114,7 @@ FY 26-27 selected: the Initial Balance includes earlier years, and only this yea
 
 ## Support
 
-Built by **TechHive Solutions**, a certified Odoo Ready Partner. We build AI integrations, ERP setups, custom Odoo plugins, and enterprise apps.
+Built by **TechHive Solutions**, a certified Odoo Partner. We build AI integrations, ERP setups, custom Odoo plugins, and enterprise apps.
 
 Setup and customisation cost $29/hour. Want to see it first? Book a 15-minute demo by email.
 
