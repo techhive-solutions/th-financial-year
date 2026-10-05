@@ -1,5 +1,23 @@
 # Changelog
 
+## 18.0.1.1.0 (2026-10-05)
+
+Fixes from testing on Odoo 18.0 Community and Enterprise, and two small features.
+
+- Enterprise's Trial Balance and General Ledger keep the Undistributed Profits/Losses row when one Financial
+  Year is selected, so they balance again.
+- Sales, Purchase and Invoice Analysis are scoped together with sales orders, purchase orders and journal
+  entries. Databases that already scope those switch them on when upgrading.
+- The Purchase dashboard's Avg Order Value, Lead Time to Purchase, Purchased Last 7 Days and RFQs Sent follow the
+  selected years.
+- An API request for Financial Years the user can't open gets an Access Error naming them, instead of the
+  current year's records.
+- The Date Field of a Financial Year Scope mapping is picked from the model's date fields, in Settings and in
+  the setup wizard.
+- The module won't install next to `ys_financial_year`, and its web client names no longer clash with it. The
+  switcher's cookie is renamed, so after upgrading each user's selection goes back to the current year once,
+  and links that carried the old `fys` key open on the current year.
+
 ## 18.0.1.0.0 (2026-09-29)
 
 First release of Financial Year Switcher for Odoo 18.0.

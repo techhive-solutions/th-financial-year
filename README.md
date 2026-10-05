@@ -40,7 +40,7 @@ A setup wizard opens after install. Nothing is hidden until you apply it.
 - 👥 **Decide who sees past years**: users in **Access all Financial Years** (Settings and Accounting administrators) select every year; everyone else sees the current year and any year you open to all users.
 - 📊 **Opening balances stay right**: on Odoo Enterprise, the Partner Ledger, General Ledger, Trial Balance and Aged Receivable and Payable still add up every earlier year.
 - 💬 **Errors that say what to do**: instead of "top-secret records", users are told which year a record is in.
-- 🤖 **AI assistants too**: assistants connected over MCP see exactly the years their user may.
+- 🤖 **AI assistants too**: assistants connected over MCP have no switcher, so they see every year their user may open, not just the selected one.
 - 🧭 **Set up in three steps**: your fiscal calendar, the models to scope, and a preview with record counts per year.
 
 ## Screenshots
